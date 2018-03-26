@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClarifyDBModelStoreContainer" CdmEntityContainer="ClarifyDBEntities">
+    <EntitySetMapping Name="Alunos">
+      <EntityTypeMapping TypeName="ClarifyDBModel.Alunos">
+        <MappingFragment StoreEntitySet="Alunos">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Empresa" ColumnName="Empresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alunos_CursosAgendados">
+      <EntityTypeMapping TypeName="ClarifyDBModel.Alunos_CursosAgendados">
+        <MappingFragment StoreEntitySet="Alunos_CursosAgendados">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IdCursosAgendados" ColumnName="IdCursosAgendados" />
+          <ScalarProperty Name="IdAluno" ColumnName="IdAluno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Certificacoes">
+      <EntityTypeMapping TypeName="ClarifyDBModel.Certificacoes">
+        <MappingFragment StoreEntitySet="Certificacoes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IdProfessor" ColumnName="IdProfessor" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="EmpresaEmissora" ColumnName="EmpresaEmissora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CursosAgendados">
+      <EntityTypeMapping TypeName="ClarifyDBModel.CursosAgendados">
+        <MappingFragment StoreEntitySet="CursosAgendados">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IdCurso" ColumnName="IdCurso" />
+          <ScalarProperty Name="IdProfessor" ColumnName="IdProfessor" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+          <ScalarProperty Name="DtInicial" ColumnName="DtInicial" />
+          <ScalarProperty Name="DtFinal" ColumnName="DtFinal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CursosClarify">
+      <EntityTypeMapping TypeName="ClarifyDBModel.CursosClarify">
+        <MappingFragment StoreEntitySet="CursosClarify">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NomeCurso" ColumnName="NomeCurso" />
+          <ScalarProperty Name="ValorCurso" ColumnName="ValorCurso" />
+          <ScalarProperty Name="CargaHoraria" ColumnName="CargaHoraria" />
+          <ScalarProperty Name="Coordenador" ColumnName="Coordenador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoas">
+      <EntityTypeMapping TypeName="ClarifyDBModel.Pessoas">
+        <MappingFragment StoreEntitySet="Pessoas">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PrimeiroNome" ColumnName="PrimeiroNome" />
+          <ScalarProperty Name="UltimoNome" ColumnName="UltimoNome" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="DtNascimento" ColumnName="DtNascimento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Professores">
+      <EntityTypeMapping TypeName="ClarifyDBModel.Professores">
+        <MappingFragment StoreEntitySet="Professores">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="TempoMercado" ColumnName="TempoMercado" />
+          <ScalarProperty Name="TempoSalaDeAula" ColumnName="TempoSalaDeAula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\ExemploLINQ.exe.config
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\ExemploLINQ.exe
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\ExemploLINQ.pdb
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\EntityFramework.dll
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\EntityFramework.xml
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\obj\Debug\ExemploLINQ.csprojResolveAssemblyReference.cache
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\obj\Debug\ExemploLINQ.exe
+C:\Users\lucas.schoch\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\obj\Debug\ExemploLINQ.pdb
+C:\Users\Atitude\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\bin\Debug\ExemploLINQ.exe.config
+C:\Users\Atitude\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\obj\Debug\ExemploLINQ.exe
+C:\Users\Atitude\Desktop\Entity Framework\Demonstrações\ExemploLINQ\ExemploLINQ\ExemploLINQ\obj\Debug\ExemploLINQ.pdb
